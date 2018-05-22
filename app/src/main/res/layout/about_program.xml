@@ -21,7 +21,7 @@
             android:layout_weight="1"
             android:layout_margin="40dp"
             android:gravity="center"
-            app:srcCompat="@drawable/partlycloudyday" />
+            app:srcCompat="@drawable/sun" />
     </LinearLayout>
 
 

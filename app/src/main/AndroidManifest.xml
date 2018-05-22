@@ -22,13 +22,21 @@
         </activity>
         <activity
             android:name=".AboutProgramActivity"
-            android:label="O programie" />
+            android:label="O programie"
+            android:parentActivityName=".MainActivity">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="pl.parzych_demianiuk.pogodaapp.MainActivity" />
+        </activity>
         <activity
             android:name=".Main2Activity"
             android:label="Sprawdź pogodę w wybranym miejscu"></activity>
         <activity android:name=".LongTermActivity"
             android:label="Pogoda długoterminowa"
-            >
+            android:parentActivityName=".MainActivity">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="pl.parzych_demianiuk.pogodaapp.MainActivity" />
 
         </activity>
     </application>

@@ -26,7 +26,7 @@ public class Weather {
 
     public interface AsyncResponse {
 
-        void processFinish(String output1, String output2, String output3, String output4, String output5, String output6, String output7);
+        void processFinish(String output1, String output2, String output3, String output4, String output5, String output6, String output7, String output8);
     }
 
 
@@ -58,7 +58,8 @@ public class Weather {
         protected void onPostExecute(JSONObject json) {
             try {
                 if(json != null){
-                    //JSONObject details = json.getJSONArray("weather").getJSONObject(0);
+                    JSONObject details = json.getJSONArray("weather").getJSONObject(0);
+                    //JSONObject weather = json.getJSONObject("weather");
                     JSONObject main = json.getJSONObject("main");
                     JSONObject wind = json.getJSONObject("wind");
                     JSONObject clouds = json.getJSONObject("clouds");
@@ -66,7 +67,8 @@ public class Weather {
 
 
                     String city = json.getString("name").toUpperCase(Locale.US) + ", " + json.getJSONObject("sys").getString("country");
-                    //String description = details.getString("description").toUpperCase(Locale.US);
+                    String description1 = details.getString("description").toUpperCase(Locale.US);
+                    //String weatherDescription = details.getString("description");
                     String description = clouds.getString("all") + "%";
                     String temperature = String.format("%.2f", main.getDouble("temp"))+ "°";
                     String humidity = main.getString("humidity") + "%";
@@ -75,7 +77,7 @@ public class Weather {
                     String updatedOn = df.format(new Date(json.getLong("dt")*1000));
 
 
-                    delegate.processFinish(city, description, temperature, humidity, pressure, speed, updatedOn);
+                    delegate.processFinish(city, description, temperature, humidity, pressure, speed, updatedOn, description1);
 
                 }
             } catch (JSONException e) {

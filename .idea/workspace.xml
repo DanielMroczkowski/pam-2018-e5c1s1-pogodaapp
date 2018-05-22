@@ -6,87 +6,13 @@
     </shared>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="607fd531-1ac1-406b-8ee8-0241bb4f256c" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/.gitignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build.gradle" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/proguard-rules.pro" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/androidTest/java/pl/parzych_demianiuk/pogodaapp/ExampleInstrumentedTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/ic_launcher-web.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/pl/parzych_demianiuk/pogodaapp/MainActivity.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/blizzard.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/clear.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cloudrainthunder.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cloudsleetsnowthunder.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cloudy.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/fog.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/freezingdrizzle.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/freezingfog.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/freezingrain.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/heavyrain.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/heavyrainswrsday.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/heavyrainswrsnight.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/heavysleet.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/heavysleetswrsday.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/heavysleetswrsnight.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/heavysnow.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/heavysnowswrsnight.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/heavysnowswrssay.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_background.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/isorainswrsday.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/isorainswrsnight.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/isosleetswrsday.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/isosleetswrsnight.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/isosnowswrsday.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/isosnowswrssight.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/mist.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/modrain.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/modrainswrsday.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/modrainswrsnight.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/modsleet.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/modsleetswrsday.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/modsleetswrsnight.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/modsnow.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/modsnowswrsday.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/modsnowswrssight.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/occlightrain.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/occlightsleet.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/occlightsnow.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/overcast.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/partcloudrainthunderday.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/partcloudrainthundernight.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/partcloudsleetsnowthunderday.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/partcloudsleetsnowthundernight.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/partlycloudyday.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/partlycloudynight.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/sunny.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/wind.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/test/java/pl/parzych_demianiuk/pogodaapp/ExampleUnitTest.java" />
+    <list default="true" id="bc858eaf-3472-492d-aca8-9520710f5d74" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/pl/parzych_demianiuk/pogodaapp/LongTermActivity.java" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/resourceHashesCache.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/resourceHashesCache.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/classAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/javaCompile/classAnalysis.bin" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/jarAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/javaCompile/jarAnalysis.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/javaCompile.lock" afterPath="$PROJECT_DIR$/.gradle/4.4/javaCompile/javaCompile.lock" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/javaCompile/taskHistory.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/taskJars.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/javaCompile/taskJars.bin" />
@@ -95,136 +21,71 @@
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" />
       <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_core_runtime_1_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_core_runtime_1_1_0.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_livedata_core_1_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_livedata_core_1_1_0.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_runtime_1_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_runtime_1_1_0.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_viewmodel_1_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_viewmodel_1_1_0.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_animated_vector_drawable_27_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_animated_vector_drawable_27_1_1.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_appcompat_v7_27_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_appcompat_v7_27_1_1.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_constraint_constraint_layout_1_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_constraint_constraint_layout_1_1_0.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_mediarouter_v7_26_1_0.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_palette_v7_26_1_0.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_compat_27_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_compat_27_1_1.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_ui_27_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_ui_27_1_1.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_utils_27_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_utils_27_1_1.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_fragment_27_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_fragment_27_1_1.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_media_compat_26_1_0.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_v4_26_1_0.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_vector_drawable_27_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_vector_drawable_27_1_1.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_espresso_espresso_core_3_0_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_espresso_espresso_core_3_0_2.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_espresso_espresso_idling_resource_3_0_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_espresso_espresso_idling_resource_3_0_2.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_monitor_1_0_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_monitor_1_0_2.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_runner_1_0_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_runner_1_0_2.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_12_0_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_ads_12_0_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_ads_license_12_0_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_ads_lite_12_0_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_ads_lite_license_12_0_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_analytics_12_0_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_analytics_impl_12_0_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_analytics_impl_license_12_0_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_analytics_license_12_0_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_appinvite_12_0_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_appinvite_license_12_0_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_auth_12_0_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_auth_api_phone_12_0_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_auth_api_phone_license_12_0_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_auth_base_12_0_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_auth_base_license_12_0_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_awareness_12_0_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_awareness_license_12_0_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_base_12_0_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_base_license_12_0_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_basement_12_0_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_basement_license_12_0_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_cast_12_0_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_cast_framework_12_0_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_cast_framework_license_12_0_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_cast_license_12_0_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_drive_12_0_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_drive_license_12_0_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_fido_12_0_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_fido_license_12_0_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_fitness_12_0_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_fitness_license_12_0_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_games_12_0_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_games_license_12_0_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_gass_12_0_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_gass_license_12_0_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_gcm_12_0_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_gcm_license_12_0_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_identity_12_0_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_identity_license_12_0_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_iid_12_0_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_iid_license_12_0_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_instantapps_12_0_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_instantapps_license_12_0_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_location_12_0_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_location_license_12_0_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_maps_12_0_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_maps_license_12_0_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_nearby_12_0_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_nearby_license_12_0_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_panorama_12_0_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_panorama_license_12_0_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_places_12_0_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_places_license_12_0_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_plus_12_0_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_plus_license_12_0_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_safetynet_12_0_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_safetynet_license_12_0_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_tagmanager_12_0_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_tagmanager_api_12_0_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_tagmanager_api_license_12_0_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_tagmanager_license_12_0_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_tagmanager_v4_impl_12_0_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_tagmanager_v4_impl_license_12_0_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_tasks_12_0_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_tasks_license_12_0_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_vision_12_0_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_vision_common_12_0_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_vision_common_license_12_0_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_vision_license_12_0_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_wallet_12_0_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_wallet_license_12_0_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_wearable_12_0_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_wearable_license_12_0_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_analytics_12_0_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_analytics_impl_12_0_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_analytics_impl_license_12_0_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_analytics_license_12_0_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_appindexing_12_0_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_appindexing_license_12_0_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_auth_12_0_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_auth_license_12_0_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_common_12_0_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_common_license_12_0_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_config_12_0_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_config_license_12_0_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_crash_12_0_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_crash_license_12_0_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_database_12_0_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_database_connection_12_0_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_database_connection_license_12_0_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_database_license_12_0_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_dynamic_links_12_0_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_dynamic_links_license_12_0_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_iid_12_0_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_iid_license_12_0_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_messaging_12_0_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_messaging_license_12_0_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_storage_12_0_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_storage_common_12_0_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_storage_common_license_12_0_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_storage_license_12_0_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/app" afterPath="$PROJECT_DIR$/app" />
+      <change beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="$PROJECT_DIR$/app/build.gradle" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/Weather.java" afterPath="$PROJECT_DIR$/app/src/main/java/Weather.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/pl/parzych_demianiuk/pogodaapp/AboutProgramActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/pl/parzych_demianiuk/pogodaapp/AboutProgramActivity.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/pl/parzych_demianiuk/pogodaapp/LongTermActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/pl/parzych_demianiuk/pogodaapp/LongTermActivity.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/pl/parzych_demianiuk/pogodaapp/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/pl/parzych_demianiuk/pogodaapp/MainActivity.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/blizzard.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/clear.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/cloudrainthunder.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/cloudsleetsnowthunder.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/cloudy.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/fog.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/freezingdrizzle.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/freezingfog.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/freezingrain.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/heavyrain.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/heavyrainswrsday.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/heavyrainswrsnight.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/heavysleet.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/heavysleetswrsday.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/heavysleetswrsnight.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/heavysnow.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/heavysnowswrsnight.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/heavysnowswrssay.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_background.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/isorainswrsday.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/isorainswrsnight.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/isosleetswrsday.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/isosleetswrsnight.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/isosnowswrsday.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/isosnowswrssight.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/mist.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/modrain.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/modrainswrsday.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/modrainswrsnight.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/modsleet.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/modsleetswrsday.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/modsleetswrsnight.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/modsnow.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/modsnowswrsday.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/modsnowswrssight.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/occlightrain.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/occlightsleet.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/occlightsnow.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/overcast.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/partcloudrainthunderday.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/partcloudrainthundernight.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/partcloudsleetsnowthunderday.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/partcloudsleetsnowthundernight.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/partlycloudyday.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/partlycloudynight.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/sunny.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/wind.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/wind.png" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/about_program.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/about_program.xml" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main2.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main2.xml" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/menu/main_menu.xml" afterPath="$PROJECT_DIR$/app/src/main/res/menu/main_menu.xml" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
       <change beforePath="$PROJECT_DIR$/local.properties" afterPath="$PROJECT_DIR$/local.properties" />
-      <change beforePath="$PROJECT_DIR$/pam-2018-e5c1s1-pogodaapp-1.iml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pam-2018-e5c1s1-pogodaapp-master.iml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pam-2018-e5c1s1-pogodaapp.iml" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -238,27 +99,56 @@
       <ProjectState />
     </projectState>
   </component>
-  <component name="ExternalProjectsManager">
-    <system id="GRADLE">
-      <state>
-        <projects_view />
-      </state>
-    </system>
-  </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/pl/parzych_demianiuk/pogodaapp/MainActivity.java">
+      <file leaf-file-name="WeatherLongTerm.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/pl/parzych_demianiuk/pogodaapp/WeatherLongTerm.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="35" column="29" lean-forward="false" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
+            <state relative-caret-position="85">
+              <caret line="18" column="17" lean-forward="false" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main2Activity.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/pl/parzych_demianiuk/pogodaapp/Main2Activity.java">
+      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/pl/parzych_demianiuk/pogodaapp/MainActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-323">
+              <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/test.xml">
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+          <provider selected="true" editor-type-id="android-designer2">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activity_main.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+          <provider selected="true" editor-type-id="android-designer2">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AboutProgramActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/pl/parzych_demianiuk/pogodaapp/AboutProgramActivity.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
               <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
@@ -267,53 +157,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="activity_main.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-          <provider editor-type-id="android-designer2">
-            <state />
-          </provider>
+      <file leaf-file-name="LongTermActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/pl/parzych_demianiuk/pogodaapp/LongTermActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="30" column="40" lean-forward="true" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="about_program.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/about_program.xml">
-          <provider editor-type-id="android-designer2">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="32" lean-forward="false" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activity_main2.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main2.xml">
-          <provider editor-type-id="android-designer2">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="7" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activity_long_term.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_long_term.xml">
-          <provider editor-type-id="android-designer2">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="32" lean-forward="false" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+            <state relative-caret-position="68">
+              <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -322,7 +170,7 @@
     </leaf>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/app" />
   </component>
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
@@ -340,14 +188,14 @@
         <entry>
           <key>
             <ExternalProjectPojo>
-              <option name="name" value="pam-2018-e5c1s1-pogodaapp-master" />
+              <option name="name" value="pam-2018-e5c1s1-pogodaapp-master11" />
               <option name="path" value="$PROJECT_DIR$" />
             </ExternalProjectPojo>
           </key>
           <value>
             <list>
               <ExternalProjectPojo>
-                <option name="name" value="pam-2018-e5c1s1-pogodaapp-master" />
+                <option name="name" value="pam-2018-e5c1s1-pogodaapp-master11" />
                 <option name="path" value="$PROJECT_DIR$" />
               </ExternalProjectPojo>
               <ExternalProjectPojo>
@@ -365,7 +213,7 @@
           <value>
             <list>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the sub-projects of root project 'pam-2018-e5c1s1-pogodaapp-master'." />
+                <option name="description" value="Displays the sub-projects of root project 'pam-2018-e5c1s1-pogodaapp-master11'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="projects" />
               </ExternalTaskPojo>
@@ -415,7 +263,7 @@
                 <option name="name" value="assembleDebugUnitTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the configuration model of root project 'pam-2018-e5c1s1-pogodaapp-master'. [incubating]" />
+                <option name="description" value="Displays the configuration model of root project 'pam-2018-e5c1s1-pogodaapp-master11'. [incubating]" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="model" />
               </ExternalTaskPojo>
@@ -437,7 +285,7 @@
                 <option name="name" value="bundleAppClassesDebug" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the tasks runnable from root project 'pam-2018-e5c1s1-pogodaapp-master' (some of the displayed tasks may belong to subprojects)." />
+                <option name="description" value="Displays the tasks runnable from root project 'pam-2018-e5c1s1-pogodaapp-master11' (some of the displayed tasks may belong to subprojects)." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="tasks" />
               </ExternalTaskPojo>
@@ -460,7 +308,7 @@
                 <option name="name" value="deviceCheck" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays all dependencies declared in root project 'pam-2018-e5c1s1-pogodaapp-master'." />
+                <option name="description" value="Displays all dependencies declared in root project 'pam-2018-e5c1s1-pogodaapp-master11'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="dependencies" />
               </ExternalTaskPojo>
@@ -541,7 +389,7 @@
                 <option name="name" value="compileDebugAndroidTestJavaWithJavac" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the components produced by root project 'pam-2018-e5c1s1-pogodaapp-master'. [incubating]" />
+                <option name="description" value="Displays the components produced by root project 'pam-2018-e5c1s1-pogodaapp-master11'. [incubating]" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="components" />
               </ExternalTaskPojo>
@@ -670,7 +518,7 @@
                 <option name="name" value="uninstallDebugAndroidTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the insight into a specific dependency in root project 'pam-2018-e5c1s1-pogodaapp-master'." />
+                <option name="description" value="Displays the insight into a specific dependency in root project 'pam-2018-e5c1s1-pogodaapp-master11'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="dependencyInsight" />
               </ExternalTaskPojo>
@@ -971,12 +819,12 @@
                 <option name="name" value="transformDexArchiveWithDexMergerForDebugAndroidTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the dependent components of components in root project 'pam-2018-e5c1s1-pogodaapp-master'. [incubating]" />
+                <option name="description" value="Displays the dependent components of components in root project 'pam-2018-e5c1s1-pogodaapp-master11'. [incubating]" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="dependentComponents" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays all buildscript dependencies declared in root project 'pam-2018-e5c1s1-pogodaapp-master'." />
+                <option name="description" value="Displays all buildscript dependencies declared in root project 'pam-2018-e5c1s1-pogodaapp-master11'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="buildEnvironment" />
               </ExternalTaskPojo>
@@ -1107,7 +955,7 @@
                 <option name="name" value="generateReleaseResValues" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the properties of root project 'pam-2018-e5c1s1-pogodaapp-master'." />
+                <option name="description" value="Displays the properties of root project 'pam-2018-e5c1s1-pogodaapp-master11'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="properties" />
               </ExternalTaskPojo>
@@ -2173,7 +2021,7 @@
                   </entry>
                 </map>
               </option>
-              <option name="name" value="pam-2018-e5c1s1-pogodaapp-master" />
+              <option name="name" value="pam-2018-e5c1s1-pogodaapp-master11" />
               <option name="projectBuildClasspath">
                 <list>
                   <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-all/9br9xq1tocpiv8o6njlyu5op1/gradle-4.4/src/announce" />
@@ -2337,24 +2185,11 @@
       </map>
     </option>
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main2.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/about_program.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/menu/main_menu.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_long_term.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
-      </list>
-    </option>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="width" value="832" />
+    <option name="height" value="870" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="116" />
-    <option name="y" value="28" />
-    <option name="width" value="1400" />
-    <option name="height" value="830" />
-  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="AndroidView" proportions="" version="1">
       <flattenPackages />
@@ -2372,47 +2207,54 @@
     <panes>
       <pane id="ProjectPane" />
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="AndroidView">
         <subPane>
           <expand>
             <path>
-              <item name="pam-2018-e5c1s1-pogodaapp-master" type="1abcf292:AndroidViewProjectNode" />
+              <item name="pam-2018-e5c1s1-pogodaapp-master11" type="1abcf292:AndroidViewProjectNode" />
               <item name="app" type="feadf853:AndroidModuleNode" />
             </path>
             <path>
-              <item name="pam-2018-e5c1s1-pogodaapp-master" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="manifests" type="f94875db:AndroidManifestsGroupNode" />
-            </path>
-            <path>
-              <item name="pam-2018-e5c1s1-pogodaapp-master" type="1abcf292:AndroidViewProjectNode" />
+              <item name="pam-2018-e5c1s1-pogodaapp-master11" type="1abcf292:AndroidViewProjectNode" />
               <item name="app" type="feadf853:AndroidModuleNode" />
               <item name="java" type="edd41e36:AndroidSourceTypeNode" />
             </path>
             <path>
-              <item name="pam-2018-e5c1s1-pogodaapp-master" type="1abcf292:AndroidViewProjectNode" />
+              <item name="pam-2018-e5c1s1-pogodaapp-master11" type="1abcf292:AndroidViewProjectNode" />
               <item name="app" type="feadf853:AndroidModuleNode" />
               <item name="java" type="edd41e36:AndroidSourceTypeNode" />
               <item name="pogodaapp" type="cbb59c9e:AndroidPsiDirectoryNode" />
             </path>
             <path>
-              <item name="pam-2018-e5c1s1-pogodaapp-master" type="1abcf292:AndroidViewProjectNode" />
+              <item name="pam-2018-e5c1s1-pogodaapp-master11" type="1abcf292:AndroidViewProjectNode" />
               <item name="app" type="feadf853:AndroidModuleNode" />
               <item name="res" type="d4f16f75:AndroidResFolderNode" />
             </path>
             <path>
-              <item name="pam-2018-e5c1s1-pogodaapp-master" type="1abcf292:AndroidViewProjectNode" />
+              <item name="pam-2018-e5c1s1-pogodaapp-master11" type="1abcf292:AndroidViewProjectNode" />
               <item name="app" type="feadf853:AndroidModuleNode" />
               <item name="res" type="d4f16f75:AndroidResFolderNode" />
               <item name="layout" type="ddeffd01:AndroidResFolderTypeNode" />
             </path>
             <path>
-              <item name="pam-2018-e5c1s1-pogodaapp-master" type="1abcf292:AndroidViewProjectNode" />
+              <item name="pam-2018-e5c1s1-pogodaapp-master11" type="1abcf292:AndroidViewProjectNode" />
               <item name="app" type="feadf853:AndroidModuleNode" />
               <item name="res" type="d4f16f75:AndroidResFolderNode" />
               <item name="menu" type="ddeffd01:AndroidResFolderTypeNode" />
+            </path>
+            <path>
+              <item name="pam-2018-e5c1s1-pogodaapp-master11" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+              <item name="mipmap" type="ddeffd01:AndroidResFolderTypeNode" />
+            </path>
+            <path>
+              <item name="pam-2018-e5c1s1-pogodaapp-master11" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+              <item name="values" type="ddeffd01:AndroidResFolderTypeNode" />
             </path>
           </expand>
           <select />
@@ -2422,13 +2264,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="settings.editor.selected.configurable" value="android.sdk-updates" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="device.picker.selection" value="WUJ01HV7VJ" />
-  </component>
-  <component name="RecentsManager">
-    <key name="android.template.packageName">
-      <recent name="pl.parzych_demianiuk.pogodaapp" />
-    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -2466,7 +2303,7 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="app" />
       <option name="DEPLOY" value="true" />
       <option name="ARTIFACT_NAME" value="" />
@@ -2586,20 +2423,20 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="607fd531-1ac1-406b-8ee8-0241bb4f256c" name="Default" comment="" />
-      <created>1526417510845</created>
+      <changelist id="bc858eaf-3472-492d-aca8-9520710f5d74" name="Default" comment="" />
+      <created>1526974717285</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1526417510845</updated>
+      <updated>1526974717285</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="886" extended-state="6" />
+    <frame x="-8" y="-8" width="1616" height="886" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -2613,8 +2450,8 @@
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19087404" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3288948" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.065246336" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -2629,38 +2466,6 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="combo" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3288948" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969153" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -2670,76 +2475,18 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/Weather.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/pl/parzych_demianiuk/pogodaapp/WeatherLongTerm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        <state relative-caret-position="85">
+          <caret line="18" column="17" lean-forward="false" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/about_program.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/pl/parzych_demianiuk/pogodaapp/LongTermActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="32" lean-forward="false" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider editor-type-id="android-manifest">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="18" lean-forward="false" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/main_menu.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="8" lean-forward="false" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_long_term.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="32" lean-forward="false" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="30" column="40" lean-forward="true" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main2.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="7" selection-end-column="32" />
+        <state relative-caret-position="68">
+          <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -2752,28 +2499,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/pl/parzych_demianiuk/pogodaapp/LongTermActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/pl/parzych_demianiuk/pogodaapp/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="35" column="29" lean-forward="false" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
+        <state relative-caret-position="-323">
+          <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/pl/parzych_demianiuk/pogodaapp/Main2Activity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/test.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
   </component>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#99ccff"
+    tools:context=".MainActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="206dp">
+
+
+        <TextView
+            android:id="@+id/Text1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Warszawa, PL"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="206dp">
+
+
+        <TextView
+            android:id="@+id/Text2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Temperatura"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="206dp">
+
+
+        <TextView
+            android:id="@+id/Text3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Wiatr"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="206dp">
+
+
+        <TextView
+            android:id="@+id/Text4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Zachmurzenie"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="206dp">
+
+
+        <TextView
+            android:id="@+id/Text5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Ostatnia aktualizacja"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+</LinearLayout>
