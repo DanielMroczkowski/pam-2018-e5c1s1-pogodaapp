@@ -1,4 +1,4 @@
-package com.faultinmycode.fimcweatherapp;
+package pl.parzych_demianiuk.pogodaapp;
 
 import android.os.AsyncTask;
 import android.util.Log;

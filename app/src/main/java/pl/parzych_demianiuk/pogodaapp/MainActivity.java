@@ -7,16 +7,13 @@ import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.location.Location;
 import android.location.LocationManager;
-import android.media.Image;
 import android.support.annotation.NonNull;
 import android.support.v4.app.ActivityCompat;
-import android.support.v4.app.NavUtils;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
-import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -54,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-        com.faultinmycode.fimcweatherapp.Weather.placeIdTask asyncTask = new com.faultinmycode.fimcweatherapp.Weather.placeIdTask(new com.faultinmycode.fimcweatherapp.Weather.AsyncResponse() {
+        Weather.placeIdTask asyncTask = new Weather.placeIdTask(new Weather.AsyncResponse() {
             public void processFinish(String weather_city, String weather_description, String weather_temperature, String weather_humidity, String weather_pressure, String weather_wind, String weather_updatedOn, String weatherDescription) {
 
 
@@ -148,7 +145,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(i);
                 return true;
                 case R.id.longTerm:
-                Intent j = new Intent(this, LongTermActivity.class);
+                Intent j = new Intent(this, Main2Activity.class);
                 startActivity(j);
                 return true;
 
