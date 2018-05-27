@@ -8,6 +8,7 @@ import android.content.pm.PackageManager;
 import android.location.Location;
 import android.location.LocationManager;
 import android.media.Image;
+import android.os.Build;
 import android.support.annotation.NonNull;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.NavUtils;
@@ -16,6 +17,8 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
+import android.view.Window;
+import android.view.WindowManager;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -35,6 +38,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         //getSupportActionBar().hide();
         setContentView(R.layout.activity_main);
+
+
+
+
 
 
         cityField = (TextView) findViewById(R.id.cityText);
@@ -62,7 +69,7 @@ public class MainActivity extends AppCompatActivity {
                 cityField.setText(weather_city);
                 updatedField.setText(weather_updatedOn);
                 detailsField.setText("Zachmurzenie: " + weather_description);
-                currentTemperatureField.setText("Temperatura: " + weather_temperature);
+                currentTemperatureField.setText(weather_temperature+"C");
                 humidity_field.setText("Wilgotność: " + weather_humidity);
                 pressure_field.setText("Ciśnienie: " + weather_pressure);
                 wind_field.setText("Wiatr: " + weather_wind);
@@ -75,13 +82,18 @@ public class MainActivity extends AppCompatActivity {
 
                 if(weatherDescription.equals("LIGHT RAIN") || weatherDescription.equals("MODERATE RAIN") || weatherDescription.equals("HEAVY INTENSITY RAIN") || weatherDescription.equals("VERY HEAVY RAIN") || weatherDescription.equals("EXTREME RAIN") || weatherDescription.equals("FREEZING RAIN") || weatherDescription.equals("LIGHT INTENSITY SHOWER RAIN") || weatherDescription.equals("SHOWER RAIN") || weatherDescription.equals("HEAVY INTENSITY SHOWER RAIN") || weatherDescription.equals("RAGGED SHOWER RAIN")){
                     imageView.setImageResource(icons[1]);
+                    pogodaField.setText("Deszcz");
                 }else if(weatherDescription.equals("CLEAR SKY")){
+                    pogodaField.setText("Czyste niebo");
                     imageView.setImageResource(icons[3]);
                 }else if(weatherDescription.equals("THUNDERSTORM WITH LIGHT RAIN") || weatherDescription.equals("THUNDERSTORM WITH RAIN") || weatherDescription.equals("THUNDERSTORM WITH HEAVY RAIN") || weatherDescription.equals("LIGHT THUNDERSTORM") || weatherDescription.equals("THUNDERSTORM") || weatherDescription.equals("HEAVY THUNDERSTORM") || weatherDescription.equals("RAGGED THUNDERSTORM") || weatherDescription.equals("THUNDERSTORM WITH LIGHT DRIZZLE") || weatherDescription.equals("THUNDERSTORM WITH DRIZZLE") || weatherDescription.equals("THUNDERSTORM WITH HEAVY DRIZZLE")){
+                    pogodaField.setText("Burza");
                     imageView.setImageResource(icons[4]);
                 }else if(weatherDescription.equals("FEW CLOUDS") || weatherDescription.equals("SCATTERED CLOUDS") || weatherDescription.equals("BROKEN CLOUDS") || weatherDescription.equals("OVERCAST CLOUDS") ){
+                    pogodaField.setText("Zachmurzone niebo");
                     imageView.setImageResource(icons[0]);
                 }else if(weatherDescription.equals("LIGHT SNOW") || weatherDescription.equals("SNOW") || weatherDescription.equals("HEAVY SNOW") || weatherDescription.equals("SLEET") || weatherDescription.equals("SHOWER SLEET") || weatherDescription.equals("LIGHT RAIN AND SNOW") || weatherDescription.equals("RAIN AND SNOW") || weatherDescription.equals("LIGHT SHOWER SNOW") || weatherDescription.equals("SHOWER SNOW") || weatherDescription.equals("HEAVY SHOWER SNOW")){
+                    pogodaField.setText("Śnieg");
                     imageView.setImageResource(icons[2]);
                 } else { imageView.setImageResource(icons[4]);}
 
