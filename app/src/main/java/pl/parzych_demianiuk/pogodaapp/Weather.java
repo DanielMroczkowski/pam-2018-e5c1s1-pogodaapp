@@ -21,6 +21,9 @@ public class Weather {
     private static final String OPEN_WEATHER_MAP_URL =
             "http://api.openweathermap.org/data/2.5/weather?lat=%s&lon=%s&units=metric";
 
+    private static final String OPEN_WEATHER_MAP_URL_CITY =
+            "http://api.openweathermap.org/data/2.5/weather?q=%s&units=metric";
+
     private static final String OPEN_WEATHER_MAP_API = "ac1d416e05fef7cb178f8d3aa90fa2c3";
 
 
@@ -70,7 +73,66 @@ public class Weather {
                     String description1 = details.getString("description").toUpperCase(Locale.US);
                     //String weatherDescription = details.getString("description");
                     String description = clouds.getString("all") + "%";
-                    String temperature = String.format("%.2f", main.getDouble("temp"))+ "°";
+                    String temperature = String.format("%.1f", main.getDouble("temp"))+ "°";
+                    String humidity = main.getString("humidity") + "%";
+                    String pressure = main.getString("pressure") + " hPa";
+                    String speed = wind.getString("speed") + "m/s";
+                    String updatedOn = df.format(new Date(json.getLong("dt")*1000));
+
+
+                    delegate.processFinish(city, description, temperature, humidity, pressure, speed, updatedOn, description1);
+
+                }
+            } catch (JSONException e) {
+
+            }
+
+
+
+        }
+    }
+
+    public static class placeIdTaskCity extends AsyncTask<String, Void, JSONObject> {
+
+        public AsyncResponse delegate = null;
+
+
+        public placeIdTaskCity(AsyncResponse asyncResponse) {
+            delegate = asyncResponse;
+
+        }
+
+        @Override
+        protected JSONObject doInBackground(String... params) {
+
+            JSONObject jsonWeather = null;
+            try {
+                jsonWeather = getWeatherCityJSON(params[0]);
+            } catch (Exception e) {
+
+            }
+
+
+            return jsonWeather;
+        }
+
+        @Override
+        protected void onPostExecute(JSONObject json) {
+            try {
+                if(json != null){
+                    JSONObject details = json.getJSONArray("weather").getJSONObject(0);
+                    //JSONObject weather = json.getJSONObject("weather");
+                    JSONObject main = json.getJSONObject("main");
+                    JSONObject wind = json.getJSONObject("wind");
+                    JSONObject clouds = json.getJSONObject("clouds");
+                    DateFormat df = DateFormat.getDateTimeInstance();
+
+
+                    String city = json.getString("name").toUpperCase(Locale.US) + ", " + json.getJSONObject("sys").getString("country");
+                    String description1 = details.getString("description").toUpperCase(Locale.US);
+                    //String weatherDescription = details.getString("description");
+                    String description = clouds.getString("all") + "%";
+                    String temperature = String.format("%.1f", main.getDouble("temp"))+ "°";
                     String humidity = main.getString("humidity") + "%";
                     String pressure = main.getString("pressure") + " hPa";
                     String speed = wind.getString("speed") + "m/s";
@@ -92,6 +154,36 @@ public class Weather {
     public static JSONObject getWeatherJSON(String lat, String lon){
         try {
             URL url = new URL(String.format(OPEN_WEATHER_MAP_URL, lat, lon));
+            HttpURLConnection connection =
+                    (HttpURLConnection)url.openConnection();
+
+            connection.addRequestProperty("x-api-key", OPEN_WEATHER_MAP_API);
+
+            BufferedReader reader = new BufferedReader(
+                    new InputStreamReader(connection.getInputStream()));
+
+            StringBuffer json = new StringBuffer(1024);
+            String tmp="";
+            while((tmp=reader.readLine())!=null)
+                json.append(tmp).append("\n");
+            reader.close();
+
+            JSONObject data = new JSONObject(json.toString());
+
+            // This value will be 404 if the request was not successful
+            if(data.getInt("cod") != 200){
+                return null;
+            }
+
+            return data;
+        }catch(Exception e){
+            return null;
+        }
+    }
+
+    public static JSONObject getWeatherCityJSON(String city){
+        try {
+            URL url = new URL(String.format(OPEN_WEATHER_MAP_URL_CITY, city));
             HttpURLConnection connection =
                     (HttpURLConnection)url.openConnection();
 

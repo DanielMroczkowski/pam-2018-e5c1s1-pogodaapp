@@ -2,4 +2,7 @@
     <string name="app_name">PogodaApp</string>
     <string name="about_program">O Programie</string>
     <string name="longTerm">Pogoda długoterminowa</string>
+    <string name="searchCity">Szukaj miasta</string>
+    <string name="action_refresh">Odśwież</string>
+    <string name="gps_localization">Zlokalizuj</string>
 </resources>
