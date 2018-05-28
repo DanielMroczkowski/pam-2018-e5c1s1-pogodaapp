@@ -2,6 +2,8 @@
 <menu xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
+
+
     <item
         android:id="@+id/about_program"
         android:title="@string/about_program"
@@ -13,4 +15,23 @@
         app:showAsAction="never"
         android:background="#99ccff"
         />
+    <item
+        android:id="@+id/action_gps"
+        android:icon="@drawable/ic_gps_fixed_black_24dp"
+        android:title="@string/gps_localization"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_refresh"
+        android:icon="@drawable/ic_refresh_black_24dp"
+        android:title="@string/action_refresh"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:title="@string/searchCity"
+        app:showAsAction="always"/>
+
+
 </menu>
