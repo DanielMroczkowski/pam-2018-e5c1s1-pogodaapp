@@ -10,6 +10,7 @@ public class LongTermActivity extends AppCompatActivity{
     @Override
     protected void onCreate(Bundle savedInstatnceState){
 
+        
         super.onCreate(savedInstatnceState);
         setContentView(R.layout.activity_long_term);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
