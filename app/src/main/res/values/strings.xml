@@ -5,6 +5,7 @@
 
 
     <string name="appbar_scrolling_view_behavior">apbar_scrolling_view_behavior</string>
+
     <string name="searchCity">Szukaj miasta</string>
     <string name="action_refresh">Odśwież</string>
     <string name="gps_localization">Zlokalizuj</string>

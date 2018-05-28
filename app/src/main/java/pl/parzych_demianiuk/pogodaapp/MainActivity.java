@@ -19,10 +19,9 @@ import android.support.v4.app.ActivityCompat;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-<<<<<<< HEAD
-=======
+
 import android.text.InputType;
->>>>>>> cd2cbcd9f6a00805451bbdcd87286a0728d5eab1
+
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
