@@ -15,6 +15,7 @@ import android.support.annotation.NonNull;
 import android.support.v4.app.ActivityCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
@@ -22,8 +23,14 @@ import android.view.Window;
 import android.view.WindowManager;
 import android.widget.EditText;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toolbar;
+
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -31,11 +38,12 @@ public class MainActivity extends AppCompatActivity {
     TextView cityField, detailsField, currentTemperatureField, humidity_field, pressure_field, updatedField, wind_field, pogodaField;
     ImageView imageView;
     int []icons = {R.drawable.cloud, R.drawable.rainy, R.drawable.snowing, R.drawable.sun,R.drawable.thunderstorm,R.drawable.wind};
+    int []backgrounds = {R.drawable.wiosna, R.drawable.lato, R.drawable.jesien, R.drawable.zima};
     static final int REQUEST_LOCATION = 1;
     LocationManager locationManager;
     double latti ;
     double longi ;
-
+    LinearLayout rl;
 
 
 
@@ -53,7 +61,7 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-
+        rl = (LinearLayout) findViewById(R.id.activity_main);
         cityField = (TextView) findViewById(R.id.cityText);
         updatedField = (TextView) findViewById(R.id.updateText);
         detailsField = (TextView) findViewById(R.id.cloudText);
@@ -70,9 +78,18 @@ public class MainActivity extends AppCompatActivity {
 
 
 
+        SimpleDateFormat df = new SimpleDateFormat("MM-dd");
+        String date = df.format(Calendar.getInstance().getTime());
+
+
+
+
+
 
         Weather.placeIdTask asyncTask = new Weather.placeIdTask(new Weather.AsyncResponse() {
             public void processFinish(String weather_city, String weather_description, String weather_temperature, String weather_humidity, String weather_pressure, String weather_wind, String weather_updatedOn, String weatherDescription) {
+
+
 
 
 

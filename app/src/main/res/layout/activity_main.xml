@@ -7,6 +7,7 @@
     android:orientation="vertical"
     android:background="@drawable/wiosna"
     tools:context=".MainActivity"
+    android:id="@+id/activity_main"
 
     >
 
