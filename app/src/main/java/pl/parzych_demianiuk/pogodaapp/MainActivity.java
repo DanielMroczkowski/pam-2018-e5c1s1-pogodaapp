@@ -5,8 +5,15 @@ import android.Manifest;
 import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
 import android.location.Location;
 import android.location.LocationManager;
+
+
+import android.media.Image;
+import android.os.Build;
+
 
 import android.media.Image;
 import android.os.Build;
@@ -19,12 +26,17 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 
+
 import android.view.Window;
 import android.view.WindowManager;
 import android.widget.EditText;
 
+
+
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toolbar;
+
 
 public class MainActivity extends AppCompatActivity {
 
@@ -36,6 +48,9 @@ public class MainActivity extends AppCompatActivity {
     double latti ;
     double longi ;
 
+
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -43,6 +58,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 
+       getWindow().setFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_NAVIGATION, WindowManager.LayoutParams.FLAG_TRANSLUCENT_NAVIGATION);
+
+        getSupportActionBar().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
+        getSupportActionBar().setDisplayShowTitleEnabled(false);
 
 
 
