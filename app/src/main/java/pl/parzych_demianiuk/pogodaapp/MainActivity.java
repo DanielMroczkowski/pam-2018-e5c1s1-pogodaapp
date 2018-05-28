@@ -7,11 +7,10 @@ import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.location.Location;
 import android.location.LocationManager;
-//<<<<<<< HEAD
-//=======
+
 import android.media.Image;
 import android.os.Build;
-//>>>>>>> 51e0cd6f5b280e4d712e8ecff9f67303a6c9ab73
+
 import android.support.annotation.NonNull;
 import android.support.v4.app.ActivityCompat;
 import android.support.v7.app.AppCompatActivity;
@@ -19,12 +18,11 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
-//<<<<<<< HEAD
-//=======
+
 import android.view.Window;
 import android.view.WindowManager;
 import android.widget.EditText;
-//>>>>>>> 51e0cd6f5b280e4d712e8ecff9f67303a6c9ab73
+
 import android.widget.ImageView;
 import android.widget.TextView;
 
