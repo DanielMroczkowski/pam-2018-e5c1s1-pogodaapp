@@ -20,7 +20,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1">
 
-            <!--the recycler view to hold our weather items -->
+
             <android.support.v7.widget.RecyclerView
                 android:id="@+id/recyclerViewForWeather"
                 android:layout_width="match_parent"

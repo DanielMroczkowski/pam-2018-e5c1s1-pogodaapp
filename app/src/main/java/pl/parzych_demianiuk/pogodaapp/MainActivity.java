@@ -9,8 +9,6 @@ import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.location.Location;
 import android.location.LocationManager;
-import android.media.Image;
-import android.os.Build;
 import android.support.annotation.NonNull;
 import android.support.v4.app.ActivityCompat;
 import android.support.v7.app.AppCompatActivity;
@@ -18,12 +16,12 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
-import android.view.Window;
 import android.view.WindowManager;
-import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toolbar;
+
+import pl.parzych_demianiuk.pogodaapp.longTerm.LongTermActivity;
+import pl.parzych_demianiuk.pogodaapp.longTerm.WeatherActivityFragment;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -170,7 +168,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(i);
                 return true;
                 case R.id.longTerm:
-                Intent j = new Intent(this, Main2Activity.class);
+                Intent j = new Intent(MainActivity.this, LongTermActivity.class);
                 startActivity(j);
                 return true;
 
