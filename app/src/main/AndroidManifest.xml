@@ -31,7 +31,7 @@
             android:value="pl.parzych_demianiuk.pogodaapp.MainActivity" />
         </activity>
         <activity
-            android:name=".Main2Activity"
+            android:name=".longTerm.LongTermActivity"
             android:label="Sprawdź pogodę w wybranym miejscu"></activity>
     </application>
 

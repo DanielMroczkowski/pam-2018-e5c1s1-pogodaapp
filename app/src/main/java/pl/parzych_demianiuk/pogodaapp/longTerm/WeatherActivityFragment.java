@@ -1,4 +1,4 @@
-package pl.parzych_demianiuk.pogodaapp;
+package pl.parzych_demianiuk.pogodaapp.longTerm;
 
 import android.app.Fragment;
 
@@ -21,7 +21,7 @@ import pl.parzych_demianiuk.pogodaapp.longTerm.Listener;
 import pl.parzych_demianiuk.pogodaapp.longTerm.Manager;
 import pl.parzych_demianiuk.pogodaapp.longTerm.WeatherAdapter;
 
-public class Main2Activity extends Fragment {
+public class WeatherActivityFragment extends Fragment {
 
 //    @Override
 //    protected void onCreate(Bundle savedInstanceState) {
@@ -31,7 +31,7 @@ public class Main2Activity extends Fragment {
     private RecyclerView recyclerView;
     private Context activity;
 
-    public  Main2Activity(){
+    public WeatherActivityFragment(){
 
     }
 
@@ -39,7 +39,7 @@ public class Main2Activity extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         Manager manager = Manager.getInstance(getActivity().getApplicationContext());
-        View view = inflater.inflate(R.layout.activity_main2, container, false);
+        View view = inflater.inflate(R.layout.activity_fragment, container, false);
         final TextView debugFeedback = (TextView) view.findViewById(R.id.textViewFeedback);
 
         recyclerView = (RecyclerView) view.findViewById(R.id.recyclerViewForWeather);
