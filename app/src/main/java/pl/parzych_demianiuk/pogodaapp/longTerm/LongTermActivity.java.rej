@@ -1,0 +1,12 @@
+diff a/app/src/main/java/pl/parzych_demianiuk/pogodaapp/longTerm/LongTermActivity.java b/app/src/main/java/pl/parzych_demianiuk/pogodaapp/longTerm/LongTermActivity.java	(rejected hunks)
+@@ -16,6 +16,10 @@
+         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+         setSupportActionBar(toolbar);
+ 
++//        dcdc
++//                dc
++//                cdc
++//                        dc
+     }
+ 
+ 

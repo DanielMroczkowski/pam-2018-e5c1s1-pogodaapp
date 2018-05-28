@@ -16,10 +16,6 @@ public class LongTermActivity extends AppCompatActivity{
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-//        dcdc
-//                dc
-//                cdc
-//                        dc
     }
 
 
