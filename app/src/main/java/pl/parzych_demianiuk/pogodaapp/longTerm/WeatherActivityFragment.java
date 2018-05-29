@@ -16,6 +16,7 @@ import android.content.Context;
 import java.util.ArrayList;
 
 
+
 import pl.parzych_demianiuk.pogodaapp.R;
 import pl.parzych_demianiuk.pogodaapp.longTerm.Listener;
 import pl.parzych_demianiuk.pogodaapp.longTerm.Manager;

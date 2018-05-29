@@ -18,9 +18,12 @@ import java.util.ArrayList;
 
 public class Manager {
 
-    private static  String OPEN_WEATHER_MAP_API = "0f40b9a2fd7aced5d29df69a4d963357";
+    private static  String OPEN_WEATHER_MAP_API = "dd91011a405eba9a769d8e1ed60e2436";
 
-    private static String OPEN_WEATHER_API = "http://api.openweathermap.org/data/2.5/forecast?lat=35&lon=139?&units=metric" + OPEN_WEATHER_MAP_API;
+    private static String OPEN_WEATHER_API = "http://api.openweathermap.org/data/2.5/forecast?lat=35&lon=139&units=metric&appid=" + OPEN_WEATHER_MAP_API;
+
+
+    //forecast?lat=35&lon=139&
 
 
 

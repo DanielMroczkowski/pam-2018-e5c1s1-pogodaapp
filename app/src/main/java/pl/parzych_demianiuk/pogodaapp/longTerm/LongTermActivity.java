@@ -3,6 +3,7 @@ package pl.parzych_demianiuk.pogodaapp.longTerm;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.support.design.widget.AppBarLayout;
 
 import pl.parzych_demianiuk.pogodaapp.R;
 
@@ -15,6 +16,7 @@ public class LongTermActivity extends AppCompatActivity{
         setContentView(R.layout.activity_long_term);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+       // getActionBar().setDisplayHomeAsUpEnabled(true);
 
     }
 

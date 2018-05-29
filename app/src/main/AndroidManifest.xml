@@ -32,7 +32,9 @@
         </activity>
         <activity
             android:name=".longTerm.LongTermActivity"
-            android:label="Sprawdź pogodę w wybranym miejscu"></activity>
+            android:label="Pogoda długoterminowa"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
     </application>
 
 </manifest>
