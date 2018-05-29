@@ -49,14 +49,14 @@ public class WeatherActivityFragment extends Fragment {
         Manager.GetWeather(new Listener<ArrayList>() {
             @Override
             public void onResult(ArrayList object) {
-                debugFeedback.setText("ok");
+                debugFeedback.setText("Połączenie z serwerem udane");
                 WeatherAdapter weatherAdapter = new WeatherAdapter(getActivity(), object);
                 recyclerView.setAdapter(weatherAdapter);
             }
         }, new Listener() {
             @Override
             public void onResult(Object object) {
-                debugFeedback.setText("failed");
+                debugFeedback.setText("Błąd połączenia z serwerem!");
             }
         });
         return view;
