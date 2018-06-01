@@ -33,8 +33,13 @@
         <activity
             android:name=".longTerm.LongTermActivity"
             android:label="Pogoda długoterminowa"
-            android:theme="@style/AppTheme.NoActionBar">
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="pl.parzych_demianiuk.pogodaapp.MainActivity" />
         </activity>
     </application>
 
 </manifest>
+
+    <!--android:theme="@style/AppTheme.NoActionBar"-->

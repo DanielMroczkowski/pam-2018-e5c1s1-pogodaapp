@@ -20,10 +20,10 @@ public class Manager {
 
     private static  String OPEN_WEATHER_MAP_API = "dd91011a405eba9a769d8e1ed60e2436";
 
-    private static String OPEN_WEATHER_API = "http://api.openweathermap.org/data/2.5/forecast?lat=35&lon=139&units=metric&appid=" + OPEN_WEATHER_MAP_API;
+    private static String OPEN_WEATHER_API = "http://api.openweathermap.org/data/2.5/forecast?lat=%s&lon=%s&units=metric&appid=" + OPEN_WEATHER_MAP_API;
 
 
-    //forecast?lat=35&lon=139&
+
 
 
 
@@ -78,6 +78,36 @@ public class Manager {
         addToRequestQueue(jsObjRequest);
     }
 
+//    public static JSONObject getWeatherJSON(String lat, String lon){
+//        try {
+//            URL url = new URL(String.format(OPEN_WEATHER_MAP_URL, lat, lon));
+//            HttpURLConnection connection =
+//                    (HttpURLConnection)url.openConnection();
+//
+//            connection.addRequestProperty("x-api-key", OPEN_WEATHER_MAP_API);
+//
+//            BufferedReader reader = new BufferedReader(
+//                    new InputStreamReader(connection.getInputStream()));
+//
+//            StringBuffer json = new StringBuffer(1024);
+//            String tmp="";
+//            while((tmp=reader.readLine())!=null)
+//                json.append(tmp).append("\n");
+//            reader.close();
+//
+//            JSONObject data = new JSONObject(json.toString());
+//
+//            // This value will be 404 if the request was not successful
+//            if(data.getInt("cod") != 200){
+//                return null;
+//            }
+//
+//            return data;
+//        }catch(Exception e){
+//            return null;
+//        }
+//    }
+
     private static ArrayList parseWeatherObject(JSONObject json)
         throws  JSONException{
 
@@ -94,10 +124,11 @@ public class Manager {
 
             JSONArray weatherArray = dtItem.getJSONArray("weather");
             JSONObject obj = (JSONObject) weatherArray.get(0);
-
-            dateTime.mainHeadline = obj.getString("main");
             dateTime.description = obj.getString("description");
-            dateTime.icon = obj.getString("icon");
+            //dateTime.icon = obj.getString("icon");
+            JSONObject mainobj = dtItem.getJSONObject("main");
+            dateTime.temp = String.format("%.1f", mainobj.getDouble("temp"))+ "°C";
+
 
             arrayList.add(dateTime);
         }

@@ -4,4 +4,5 @@
     <color name="colorPrimaryDark">#7d8b6f</color>
     <color name="colorAccent">#FF4081</color>
     <color name="cardbg">#7F000000</color>
+    <color name="days">#808B39</color>
 </resources>

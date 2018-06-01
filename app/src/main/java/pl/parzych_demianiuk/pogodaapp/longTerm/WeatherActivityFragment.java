@@ -24,40 +24,25 @@ import pl.parzych_demianiuk.pogodaapp.longTerm.WeatherAdapter;
 
 public class WeatherActivityFragment extends Fragment {
 
-//    @Override
-//    protected void onCreate(Bundle savedInstanceState) {
-//        super.onCreate(savedInstanceState);
-//        setContentView(R.layout.activity_main2);
-//    }
     private RecyclerView recyclerView;
-    private Context activity;
-
     public WeatherActivityFragment(){
-
     }
-
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         Manager manager = Manager.getInstance(getActivity().getApplicationContext());
         View view = inflater.inflate(R.layout.activity_fragment, container, false);
-        final TextView debugFeedback = (TextView) view.findViewById(R.id.textViewFeedback);
-
         recyclerView = (RecyclerView) view.findViewById(R.id.recyclerViewForWeather);
-
         recyclerView.setLayoutManager(new LinearLayoutManager(getActivity(), LinearLayoutManager.VERTICAL,false));
-
         Manager.GetWeather(new Listener<ArrayList>() {
             @Override
             public void onResult(ArrayList object) {
-                debugFeedback.setText("ok");
                 WeatherAdapter weatherAdapter = new WeatherAdapter(getActivity(), object);
                 recyclerView.setAdapter(weatherAdapter);
             }
         }, new Listener() {
             @Override
             public void onResult(Object object) {
-                debugFeedback.setText("failed");
             }
         });
         return view;
