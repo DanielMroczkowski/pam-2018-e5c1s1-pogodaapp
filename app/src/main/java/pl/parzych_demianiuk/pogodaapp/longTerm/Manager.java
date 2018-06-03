@@ -1,5 +1,6 @@
 package pl.parzych_demianiuk.pogodaapp.longTerm;
 
+import android.app.DownloadManager;
 import android.content.Context;
 
 import com.android.volley.Request;
@@ -58,6 +59,7 @@ public class Manager {
     public static void GetWeather(final Listener<ArrayList> okListener, final Listener errorListener) {
         JsonObjectRequest jsObjRequest = new JsonObjectRequest(
                 Request.Method.GET, OPEN_WEATHER_API, null, new Response.Listener<JSONObject>() {
+
             @Override
             public void onResponse(JSONObject response) {
                 try {
