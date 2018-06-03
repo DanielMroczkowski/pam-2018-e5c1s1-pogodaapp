@@ -22,8 +22,7 @@ public class Manager {
 
     private static  String OPEN_WEATHER_MAP_API = "dd91011a405eba9a769d8e1ed60e2436";
 
-
-    private static String OPEN_WEATHER_API = "http://api.openweathermap.org/data/2.5/forecast?q=Liverpool,gb&mode=json&appid=" + OPEN_WEATHER_MAP_API;
+    private static String OPEN_WEATHER_API = "http://api.openweathermap.org/data/2.5/forecast?q=Warsaw,pl&units=metric&mode=json&appid=" + OPEN_WEATHER_MAP_API;
 
 
 
