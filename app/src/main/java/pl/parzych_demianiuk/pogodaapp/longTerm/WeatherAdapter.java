@@ -38,9 +38,12 @@ public class WeatherAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder
     @Override
     public void onBindViewHolder(RecyclerView.ViewHolder holder, int position){
 
+        int []icons = {R.drawable.cloud, R.drawable.rainy, R.drawable.snowing, R.drawable.sun,R.drawable.thunderstorm,R.drawable.wind};
+
         WeatherItemHolder weatherItemHolder = (WeatherItemHolder) holder;
 
         DateTime current = data.get(position);
+
 
 
         if(Dates.isToday(current.date)){
@@ -55,15 +58,29 @@ public class WeatherAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder
         String displayDate = format.format(date);
 
         weatherItemHolder.textDateTime.setText(displayDate);
-        weatherItemHolder.textMain.setText(current.mainHeadline);
+        weatherItemHolder.textTemp.setText(current.temp);
         weatherItemHolder.textDescription.setText(current.description);
 
-        Glide.with(context).load("http://openweathermap.org/img/w/" + current.icon + ".png")
-                .placeholder(R.mipmap.ic_launcher)
-                .error(R.mipmap.ic_launcher)
-                .into(weatherItemHolder.imageIcon);
+
+        if(current.description.equals("light rain") || current.description.equals("moderate rain") || current.description.equals("heavy intensity rain") || current.description.equals("very heavy rain") || current.description.equals("extreme rain") || current.description.equals("freezing rain") || current.description.equals("light intensity shower rain") || current.description.equals("shower rain") || current.description.equals("heavy intensity shower rain") || current.description.equals("ragged shower rain")){
+            weatherItemHolder.imageIcon.setImageResource(icons[1]);
+            weatherItemHolder.textDescription.setText("Deszcz");
+        }else if(current.description.equals("clear sky")){
+            weatherItemHolder.textDescription.setText("Czyste niebo");
+            weatherItemHolder.imageIcon.setImageResource(icons[3]);
+        }else if(current.description.equals("thunderstorm with light rain") || current.description.equals("thunderstorm with rain") || current.description.equals("thunderstorm with heavy rain") || current.description.equals("light thunderstorm") || current.description.equals("thunderstorm") || current.description.equals("heavy thunderstorm") || current.description.equals("ragged thunderstorm") || current.description.equals("thunderstorm with light drizzle") || current.description.equals("thunderstorm with drizzle") || current.description.equals("thunderstorm with heavy drizzle")){
+            weatherItemHolder.textDescription.setText("Burza");
+            weatherItemHolder.imageIcon.setImageResource(icons[4]);
+        }else if(current.description.equals("few clouds") || current.description.equals("scattered clouds") || current.description.equals("broken clouds") || current.description.equals("overcast clouds") ){
+            weatherItemHolder.textDescription.setText("Zachmurzone niebo");
+            weatherItemHolder.imageIcon.setImageResource(icons[0]);
+        }else if(current.description.equals("light snow") || current.description.equals("snow") || current.description.equals("heavy snow") || current.description.equals("sleet") || current.description.equals("shower sleet") || current.description.equals("light rain and snow") || current.description.equals("rain and snow") || current.description.equals("light shower snow") || current.description.equals("shower snow") || current.description.equals("heavy shower snow")){
+            weatherItemHolder.textDescription.setText("Śnieg");
+            weatherItemHolder.imageIcon.setImageResource(icons[2]);
+        } else { weatherItemHolder.imageIcon.setImageResource(icons[4]);}
 
 
+//
     }
 
         @Override
@@ -77,7 +94,8 @@ public class WeatherAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder
         TextView textDateTime;
         TextView textDescription;
         ImageView imageIcon;
-        TextView textMain;
+        TextView textTemp;
+
 
         public WeatherItemHolder(View itemView)
         {
@@ -85,11 +103,12 @@ public class WeatherAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder
 
             weatherLayout = (LinearLayout) itemView.findViewById(R.id.weatherLayout);
             textDateTime = (TextView) itemView.findViewById(R.id.textDateTime);
-            textMain = (TextView) itemView.findViewById(R.id.textViewMain);
             textDescription = (TextView) itemView.findViewById(R.id.textViewDescription);
             imageIcon = (ImageView) itemView.findViewById(R.id.imageView1);
+            textTemp = (TextView)itemView.findViewById(R.id.textTemp);
         }
     }
+
 
 
 }

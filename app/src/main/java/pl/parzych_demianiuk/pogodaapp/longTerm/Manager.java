@@ -1,5 +1,6 @@
 package pl.parzych_demianiuk.pogodaapp.longTerm;
 
+import android.app.DownloadManager;
 import android.content.Context;
 
 import com.android.volley.Request;
@@ -19,8 +20,16 @@ import java.util.ArrayList;
 public class Manager {
 
     private static  String OPEN_WEATHER_MAP_API = "0f40b9a2fd7aced5d29df69a4d963357";
+    private static  String OPEN_WEATHER_MAP_API = "dd91011a405eba9a769d8e1ed60e2436";
+
+   // private static String OPEN_WEATHER_API = "http://api.openweathermap.org/data/2.5/forecast?lat=%s&lon=%s&units=metric&appid=" + OPEN_WEATHER_MAP_API;
+
+
+
 
     private static String OPEN_WEATHER_API = "http://api.openweathermap.org/data/2.5/forecast?q=Liverpool,gb&mode=json&appid=" + OPEN_WEATHER_MAP_API;
+
+
 
 
 
@@ -55,6 +64,7 @@ public class Manager {
     public static void GetWeather(final Listener<ArrayList> okListener, final Listener errorListener) {
         JsonObjectRequest jsObjRequest = new JsonObjectRequest(
                 Request.Method.GET, OPEN_WEATHER_API, null, new Response.Listener<JSONObject>() {
+
             @Override
             public void onResponse(JSONObject response) {
                 try {
@@ -74,6 +84,36 @@ public class Manager {
         );
         addToRequestQueue(jsObjRequest);
     }
+
+//    public static JSONObject getWeatherJSON(String lat, String lon){
+//        try {
+//            URL url = new URL(String.format(OPEN_WEATHER_MAP_URL, lat, lon));
+//            HttpURLConnection connection =
+//                    (HttpURLConnection)url.openConnection();
+//
+//            connection.addRequestProperty("x-api-key", OPEN_WEATHER_MAP_API);
+//
+//            BufferedReader reader = new BufferedReader(
+//                    new InputStreamReader(connection.getInputStream()));
+//
+//            StringBuffer json = new StringBuffer(1024);
+//            String tmp="";
+//            while((tmp=reader.readLine())!=null)
+//                json.append(tmp).append("\n");
+//            reader.close();
+//
+//            JSONObject data = new JSONObject(json.toString());
+//
+//            // This value will be 404 if the request was not successful
+//            if(data.getInt("cod") != 200){
+//                return null;
+//            }
+//
+//            return data;
+//        }catch(Exception e){
+//            return null;
+//        }
+//    }
 
     private static ArrayList parseWeatherObject(JSONObject json)
         throws  JSONException{
@@ -95,6 +135,10 @@ public class Manager {
             dateTime.mainHeadline = obj.getString("main");
             dateTime.description = obj.getString("description");
             dateTime.icon = obj.getString("icon");
+            //dateTime.icon = obj.getString("icon");
+            JSONObject mainobj = dtItem.getJSONObject("main");
+            dateTime.temp = String.format("%.1f", mainobj.getDouble("temp"))+ "°C";
+
 
             arrayList.add(dateTime);
         }
