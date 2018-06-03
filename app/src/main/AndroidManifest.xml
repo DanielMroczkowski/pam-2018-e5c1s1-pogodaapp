@@ -38,8 +38,8 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="pl.parzych_demianiuk.pogodaapp.MainActivity" />
         </activity>
-    </application>
 
+    </application>
 </manifest>
 
-    <!--android:theme="@style/AppTheme.NoActionBar"-->
+
