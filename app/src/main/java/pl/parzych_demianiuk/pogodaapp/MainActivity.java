@@ -1,11 +1,15 @@
 package pl.parzych_demianiuk.pogodaapp;
 
 import android.Manifest;
+import android.app.Notification;
+import android.app.NotificationManager;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.location.Location;
@@ -16,6 +20,7 @@ import android.preference.PreferenceManager;
 import android.provider.SyncStateContract;
 import android.support.annotation.NonNull;
 import android.support.v4.app.ActivityCompat;
+import android.support.v4.app.NotificationCompat;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -170,6 +175,21 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    public void notifcationcall(){
+
+        NotificationCompat.Builder notificationBuilder = (NotificationCompat.Builder) new NotificationCompat.Builder(this)
+                .setDefaults(NotificationCompat.DEFAULT_ALL)
+                .setSmallIcon(R.drawable.thunderstorm)
+                .setLargeIcon(BitmapFactory.decodeResource(getResources(),R.drawable.thunderstorm))
+                .setContentTitle("Powiadomienie o burzy")
+                .setContentText("Nadchodzi burza");
+
+        NotificationManager notificationManager = (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
+        notificationManager.notify(1,notificationBuilder.build());
+
+    }
+
+
     private void weatherByCity(String city){
 
         Weather.placeIdTaskCity asyncTask = new Weather.placeIdTaskCity(new Weather.AsyncResponse() {
@@ -201,6 +221,7 @@ public class MainActivity extends AppCompatActivity {
                     imageView.setImageResource(icons[3]);
                 }else if(weatherDescription.equals("THUNDERSTORM WITH LIGHT RAIN") || weatherDescription.equals("THUNDERSTORM WITH RAIN") || weatherDescription.equals("THUNDERSTORM WITH HEAVY RAIN") || weatherDescription.equals("LIGHT THUNDERSTORM") || weatherDescription.equals("THUNDERSTORM") || weatherDescription.equals("HEAVY THUNDERSTORM") || weatherDescription.equals("RAGGED THUNDERSTORM") || weatherDescription.equals("THUNDERSTORM WITH LIGHT DRIZZLE") || weatherDescription.equals("THUNDERSTORM WITH DRIZZLE") || weatherDescription.equals("THUNDERSTORM WITH HEAVY DRIZZLE")){
                     pogodaField.setText("Burza");
+                    notifcationcall();
                     imageView.setImageResource(icons[4]);
                 }else if(weatherDescription.equals("FEW CLOUDS") || weatherDescription.equals("SCATTERED CLOUDS") || weatherDescription.equals("BROKEN CLOUDS") || weatherDescription.equals("OVERCAST CLOUDS") ){
                     pogodaField.setText("Zachmurzone niebo");
@@ -252,6 +273,7 @@ public class MainActivity extends AppCompatActivity {
                     imageView.setImageResource(icons[3]);
                 }else if(weatherDescription.equals("THUNDERSTORM WITH LIGHT RAIN") || weatherDescription.equals("THUNDERSTORM WITH RAIN") || weatherDescription.equals("THUNDERSTORM WITH HEAVY RAIN") || weatherDescription.equals("LIGHT THUNDERSTORM") || weatherDescription.equals("THUNDERSTORM") || weatherDescription.equals("HEAVY THUNDERSTORM") || weatherDescription.equals("RAGGED THUNDERSTORM") || weatherDescription.equals("THUNDERSTORM WITH LIGHT DRIZZLE") || weatherDescription.equals("THUNDERSTORM WITH DRIZZLE") || weatherDescription.equals("THUNDERSTORM WITH HEAVY DRIZZLE")){
                     pogodaField.setText("Burza");
+                    notifcationcall();
                     imageView.setImageResource(icons[4]);
                 }else if(weatherDescription.equals("FEW CLOUDS") || weatherDescription.equals("SCATTERED CLOUDS") || weatherDescription.equals("BROKEN CLOUDS") || weatherDescription.equals("OVERCAST CLOUDS") ){
                     pogodaField.setText("Zachmurzone niebo");
