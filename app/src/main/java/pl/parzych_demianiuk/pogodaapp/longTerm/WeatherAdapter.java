@@ -60,19 +60,20 @@ public class WeatherAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder
         weatherItemHolder.textDateTime.setText(displayDate);
         weatherItemHolder.textTemp.setText(current.temp);
         weatherItemHolder.textDescription.setText(current.description);
+        //weatherItemHolder.cityText.setText(current.temp);
 
 
         if(current.description.equals("light rain") || current.description.equals("moderate rain") || current.description.equals("heavy intensity rain") || current.description.equals("very heavy rain") || current.description.equals("extreme rain") || current.description.equals("freezing rain") || current.description.equals("light intensity shower rain") || current.description.equals("shower rain") || current.description.equals("heavy intensity shower rain") || current.description.equals("ragged shower rain")){
             weatherItemHolder.imageIcon.setImageResource(icons[1]);
-            weatherItemHolder.textDescription.setText("Deszcz");
+            weatherItemHolder.textDescription.setText("Deszczowo");
         }else if(current.description.equals("clear sky")){
-            weatherItemHolder.textDescription.setText("Czyste niebo");
+            weatherItemHolder.textDescription.setText("Słonecznie");
             weatherItemHolder.imageIcon.setImageResource(icons[3]);
         }else if(current.description.equals("thunderstorm with light rain") || current.description.equals("thunderstorm with rain") || current.description.equals("thunderstorm with heavy rain") || current.description.equals("light thunderstorm") || current.description.equals("thunderstorm") || current.description.equals("heavy thunderstorm") || current.description.equals("ragged thunderstorm") || current.description.equals("thunderstorm with light drizzle") || current.description.equals("thunderstorm with drizzle") || current.description.equals("thunderstorm with heavy drizzle")){
             weatherItemHolder.textDescription.setText("Burza");
             weatherItemHolder.imageIcon.setImageResource(icons[4]);
         }else if(current.description.equals("few clouds") || current.description.equals("scattered clouds") || current.description.equals("broken clouds") || current.description.equals("overcast clouds") ){
-            weatherItemHolder.textDescription.setText("Zachmurzone niebo");
+            weatherItemHolder.textDescription.setText("Pochmurnie");
             weatherItemHolder.imageIcon.setImageResource(icons[0]);
         }else if(current.description.equals("light snow") || current.description.equals("snow") || current.description.equals("heavy snow") || current.description.equals("sleet") || current.description.equals("shower sleet") || current.description.equals("light rain and snow") || current.description.equals("rain and snow") || current.description.equals("light shower snow") || current.description.equals("shower snow") || current.description.equals("heavy shower snow")){
             weatherItemHolder.textDescription.setText("Śnieg");
@@ -95,6 +96,7 @@ public class WeatherAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder
         TextView textDescription;
         ImageView imageIcon;
         TextView textTemp;
+       // TextView cityText;
 
 
         public WeatherItemHolder(View itemView)
@@ -106,6 +108,7 @@ public class WeatherAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder
             textDescription = (TextView) itemView.findViewById(R.id.textViewDescription);
             imageIcon = (ImageView) itemView.findViewById(R.id.imageView1);
             textTemp = (TextView)itemView.findViewById(R.id.textTemp);
+           // cityText = (TextView) itemView.findViewById(R.id.cityText);
         }
     }
 

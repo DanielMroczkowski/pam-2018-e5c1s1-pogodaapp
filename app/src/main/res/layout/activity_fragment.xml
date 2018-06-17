@@ -1,9 +1,13 @@
 
+
+
 <FrameLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     >
+
+
 
 
     <LinearLayout
@@ -14,7 +18,8 @@
         android:paddingLeft="0dip"
         android:paddingRight="0dip"
         android:paddingTop="0dip"
-        android:background="@drawable/wiosna">
+        >
+
 
 
         <FrameLayout
@@ -34,10 +39,11 @@
             </android.support.v7.widget.RecyclerView>
 
         </FrameLayout>
-
-
-
-
     </LinearLayout>
+
+
+
+
+
 
 </FrameLayout>
