@@ -21,6 +21,7 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import java.net.URL;
 import java.util.ArrayList;
 
 public class Manager extends AppCompatActivity {
@@ -32,6 +33,8 @@ public class Manager extends AppCompatActivity {
 
     private static String OPEN_WEATHER_API = "http://api.openweathermap.org/data/2.5/forecast?q=Warszawa,pl&units=metric&mode=json&appid=" + OPEN_WEATHER_MAP_API;
 
+
+    private static String OPEN_WEATHER_API1 = "http://api.openweathermap.org/data/2.5/forecast?q=%s&units=metric&mode=json&appid=" + OPEN_WEATHER_MAP_API;
 
 
     private static Manager instance;
@@ -69,9 +72,11 @@ public class Manager extends AppCompatActivity {
         getRequestQueue().add(req);
     }
 
-    public static void GetWeather(final Listener<ArrayList> okListener, final Listener errorListener) {
+    public static void GetWeather(final Listener<ArrayList> okListener, final Listener errorListener, String city) {
+        OPEN_WEATHER_API1 = "http://api.openweathermap.org/data/2.5/forecast?q="+city+"&units=metric&mode=json&appid=" + OPEN_WEATHER_MAP_API;
+
         JsonObjectRequest jsObjRequest = new JsonObjectRequest(
-                Request.Method.GET, OPEN_WEATHER_API, null, new Response.Listener<JSONObject>() {
+                Request.Method.GET, OPEN_WEATHER_API1, null, new Response.Listener<JSONObject>() {
 
             @Override
             public void onResponse(JSONObject response) {
