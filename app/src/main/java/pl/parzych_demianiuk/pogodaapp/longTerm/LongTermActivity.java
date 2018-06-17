@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.support.v4.app.ActivityCompat;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
 import android.text.InputType;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -20,10 +21,15 @@ public class LongTermActivity extends AppCompatActivity {
 
     public static String recentCity = "Ostroleka";
 
+
+
     @Override
     protected void onCreate(Bundle savedInstatnceState) {
         super.onCreate(savedInstatnceState);
         setContentView(R.layout.activity_long_term);
+
+        getSupportActionBar().setTitle(recentCity);
+
     }
 
     private void searchCities() {
