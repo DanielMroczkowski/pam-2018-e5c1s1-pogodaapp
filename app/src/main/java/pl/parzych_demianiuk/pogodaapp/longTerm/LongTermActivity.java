@@ -19,7 +19,7 @@ import pl.parzych_demianiuk.pogodaapp.R;
 public class LongTermActivity extends AppCompatActivity {
 
 
-    public static String recentCity = "Ostroleka";
+    public static String recentCity = "Warszawa";
 
 
 
@@ -28,9 +28,7 @@ public class LongTermActivity extends AppCompatActivity {
         super.onCreate(savedInstatnceState);
         setContentView(R.layout.activity_long_term);
 
-        getSupportActionBar().setTitle(recentCity);
-
-    }
+        }
 
     private void searchCities() {
         AlertDialog.Builder alert = new AlertDialog.Builder(this);
@@ -66,13 +64,13 @@ public class LongTermActivity extends AppCompatActivity {
         recentCity = result;
 
     }
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater inflater = getMenuInflater();
         inflater.inflate(R.menu.menu_miast, menu);
         return true;
     }
-
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {

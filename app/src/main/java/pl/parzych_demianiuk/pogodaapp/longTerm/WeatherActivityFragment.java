@@ -31,13 +31,9 @@ import pl.parzych_demianiuk.pogodaapp.longTerm.WeatherAdapter;
 
 public class WeatherActivityFragment extends Fragment {
 
-
-
     private RecyclerView recyclerView;
     public WeatherActivityFragment(){
     }
-
-
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
@@ -50,17 +46,12 @@ public class WeatherActivityFragment extends Fragment {
             @Override
             public void onResult(ArrayList object) {
 
-
-
                 WeatherAdapter weatherAdapter = new WeatherAdapter(getActivity(), object);
                 recyclerView.setAdapter(weatherAdapter);
             }
         }, new Listener() {
             @Override
             public void onResult(Object object) {
-
-
-
 
             }
         },LongTermActivity.recentCity);

@@ -106,12 +106,14 @@ public class Manager extends AppCompatActivity {
         ArrayList arrayList = new ArrayList();
 
         JSONArray list = json.getJSONArray("list");
+        JSONObject cityobj = json.getJSONObject("city");
 
 
         for(int i=0;i<list.length();i++){
 
             DateTime dateTime = new DateTime();
             JSONObject dtItem = list.getJSONObject(i);
+            dateTime.city = cityobj.getString("name");
 
             dateTime.date = dtItem.getString("dt_txt");
 

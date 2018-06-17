@@ -44,23 +44,10 @@ public class WeatherAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder
 
         DateTime current = data.get(position);
 
-
-
-        if(Dates.isToday(current.date)){
-            weatherItemHolder.weatherLayout.setBackground(context.getResources().getDrawable(R.drawable.background_day_1));
-        }else{
-            weatherItemHolder.weatherLayout.setBackground(context.getResources().getDrawable(R.drawable.background_day_2));
-        }
-
-        Date date = Dates.getDate(current.date);
-
-        SimpleDateFormat format = new SimpleDateFormat("dd MMM yyyy hh:mm");
-        String displayDate = format.format(date);
-
-        weatherItemHolder.textDateTime.setText(displayDate);
+        weatherItemHolder.textDateTime.setText(current.date);
         weatherItemHolder.textTemp.setText(current.temp);
         weatherItemHolder.textDescription.setText(current.description);
-        //weatherItemHolder.cityText.setText(current.temp);
+        weatherItemHolder.cityText.setText(current.city);
 
 
         if(current.description.equals("light rain") || current.description.equals("moderate rain") || current.description.equals("heavy intensity rain") || current.description.equals("very heavy rain") || current.description.equals("extreme rain") || current.description.equals("freezing rain") || current.description.equals("light intensity shower rain") || current.description.equals("shower rain") || current.description.equals("heavy intensity shower rain") || current.description.equals("ragged shower rain")){
@@ -96,7 +83,7 @@ public class WeatherAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder
         TextView textDescription;
         ImageView imageIcon;
         TextView textTemp;
-       // TextView cityText;
+        TextView cityText;
 
 
         public WeatherItemHolder(View itemView)
@@ -108,10 +95,13 @@ public class WeatherAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder
             textDescription = (TextView) itemView.findViewById(R.id.textViewDescription);
             imageIcon = (ImageView) itemView.findViewById(R.id.imageView1);
             textTemp = (TextView)itemView.findViewById(R.id.textTemp);
-           // cityText = (TextView) itemView.findViewById(R.id.cityText);
+            cityText = (TextView) itemView.findViewById(R.id.cityText);
         }
     }
 
 
 
 }
+
+//android:layout_marginTop="1dp"
+//        android:layout_marginBottom="3dp"
