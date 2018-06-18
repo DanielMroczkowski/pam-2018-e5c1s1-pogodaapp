@@ -268,6 +268,7 @@ public class MainActivity extends AppCompatActivity {
                 if(weatherDescription.equals("LIGHT RAIN") || weatherDescription.equals("MODERATE RAIN") || weatherDescription.equals("HEAVY INTENSITY RAIN") || weatherDescription.equals("VERY HEAVY RAIN") || weatherDescription.equals("EXTREME RAIN") || weatherDescription.equals("FREEZING RAIN") || weatherDescription.equals("LIGHT INTENSITY SHOWER RAIN") || weatherDescription.equals("SHOWER RAIN") || weatherDescription.equals("HEAVY INTENSITY SHOWER RAIN") || weatherDescription.equals("RAGGED SHOWER RAIN")){
                     imageView.setImageResource(icons[1]);
                     pogodaField.setText("Deszcz");
+                    notifcationcall();
                 }else if(weatherDescription.equals("CLEAR SKY")){
                     pogodaField.setText("Czyste niebo");
                     imageView.setImageResource(icons[3]);

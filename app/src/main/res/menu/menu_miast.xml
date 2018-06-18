@@ -9,4 +9,6 @@
         android:icon="@drawable/ic_search_black_24dp"
         android:title="@string/searchCity"
         app:showAsAction="always"/>
+
+
 </menu>

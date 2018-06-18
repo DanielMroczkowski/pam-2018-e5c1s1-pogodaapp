@@ -148,7 +148,7 @@
 
             <TextView
                 android:id="@+id/cloudText"
-                android:layout_width="match_parent"
+                android:layout_width="332dp"
                 android:layout_height="match_parent"
                 android:layout_margin="10dp"
                 android:layout_weight="1"
@@ -160,7 +160,7 @@
 
             <TextView
                 android:id="@+id/windText"
-                android:layout_width="match_parent"
+                android:layout_width="310dp"
                 android:layout_height="match_parent"
                 android:layout_margin="10dp"
                 android:layout_weight="1"
@@ -184,7 +184,7 @@
 
             <TextView
                 android:id="@+id/humidityText"
-                android:layout_width="match_parent"
+                android:layout_width="342dp"
                 android:layout_height="match_parent"
                 android:layout_margin="10dp"
                 android:layout_weight="1"

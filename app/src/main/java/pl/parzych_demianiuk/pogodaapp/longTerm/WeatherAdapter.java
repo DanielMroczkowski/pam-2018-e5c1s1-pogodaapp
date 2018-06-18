@@ -103,5 +103,4 @@ public class WeatherAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder
 
 }
 
-//android:layout_marginTop="1dp"
-//        android:layout_marginBottom="3dp"
+
