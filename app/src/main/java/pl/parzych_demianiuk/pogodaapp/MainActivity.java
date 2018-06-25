@@ -53,20 +53,45 @@ import java.util.Calendar;
 
 public class MainActivity extends AppCompatActivity {
 
+
+    /**
+     * zmienna typu TextView, która wyświetla składniki pobranej pogody np. temperatura, wilgotność
+      */
     TextView cityField, detailsField, currentTemperatureField, humidity_field, pressure_field, updatedField, wind_field, pogodaField;
+
     ImageView imageView;
+
+    /**
+     * zmienna wyświetlająca ikony pogody np. zachmurzenie
+     */
     int []icons = {R.drawable.cloud, R.drawable.rainy, R.drawable.snowing, R.drawable.sun,R.drawable.thunderstorm,R.drawable.wind};
-    int []backgrounds = {R.drawable.wiosna, R.drawable.lato, R.drawable.jesien, R.drawable.zima};
+
+    /**
+     * przechowuje prawdę/fałsz o pozwolenie na korzystanie z usługi lokalizacji
+     */
     static final int REQUEST_LOCATION = 1;
+
     LocationManager locationManager;
-    double latti ;
-    double longi ;
+
+    /**
+     * zmienna, która przechowuje lokalizację urządzenia
+     */
+    double latti, longi ;
+
+    /**
+     * zmienna, która wyświetla tło
+     */
     LinearLayout rl;
 
+    /**
+     * zmienna typu String, która przechowuje ostatnie wyszukane miasto
+     */
     public String recentCity = "";
-    public static final String  DEFAULT_CITY = "Warsaw";
-    String szerokosc;
-    String dlugosc;
+
+
+    String szerokosc, dlugosc;
+
+
     public int check;
 
     //check 1 = weather by coord
@@ -111,10 +136,12 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-        //asyncTask.execute("52.229676", "21.012228999999934");
+
     }
 
-
+    /**
+     * funkcja odpowiedzialna za pobranie lokalizacji urzadzenia
+     */
     void getLocation() {
 
 
@@ -138,6 +165,9 @@ public class MainActivity extends AppCompatActivity {
 
 
 
+    /**
+     * funkcja odpowiedzialna za wywołanie okna do wyszukiwania miasta
+     */
     private void searchCities() {
         AlertDialog.Builder alert = new AlertDialog.Builder(this);
         alert.setTitle("Szukaj miasta");
@@ -165,7 +195,10 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-
+    /**
+     * funkcja odpowiedzialna za zapisanie miasta
+     * @param result ostatnie wyszukane miasto lub zlokalizowane
+     */
     private void saveLocation(String result) {
 
         recentCity = result;
@@ -175,6 +208,9 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    /**
+     * funkcja powiadamiająca o nadchodzacej burzy
+     */
     public void notifcationcall(){
 
         NotificationCompat.Builder notificationBuilder = (NotificationCompat.Builder) new NotificationCompat.Builder(this)
@@ -189,7 +225,10 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-
+    /**
+     * funkcja odpowiedzialna za pobranie pogody wyszukiwanego miasta
+     * @param city  wyszukiwane miasto
+     */
     private void weatherByCity(String city){
 
         Weather.placeIdTaskCity asyncTask = new Weather.placeIdTaskCity(new Weather.AsyncResponse() {
@@ -242,6 +281,11 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    /**
+     *  funkcja odpowiedzialna za pobranie pogody z lokalizacji urządzenia
+     * @param lat lattide- szerokosc geograficzna
+     * @param lon longitude - dlugosc geograficzna
+     */
     private void weatherByCoord(String lat,String lon){
 
         Weather.placeIdTask asyncTask = new Weather.placeIdTask(new Weather.AsyncResponse() {
@@ -292,12 +336,18 @@ public class MainActivity extends AppCompatActivity {
         );
 
         asyncTask.execute(lat, lon);
-        //asyncTask.execute("Warsaw");
+
 
 
 
     }
 
+    /**
+     * funkcja odpowiedzialna za pobranie uprawnień do używania usług lokalizacyjnych
+     * @param requestCode
+     * @param permissions
+     * @param grantResults
+     */
     @Override
     public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
         super.onRequestPermissionsResult(requestCode, permissions, grantResults);
@@ -309,7 +359,11 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-
+    /**
+     * funkcja odpowiedzialna za wyswietlanie main_menu z poziomu XML
+     * @param menu
+     * @return
+     */
         @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater inflater = getMenuInflater();
@@ -317,7 +371,11 @@ public class MainActivity extends AppCompatActivity {
         return true;
     }
 
-
+    /**
+     * funkcja odpowiedzialna za utworzenie menu w gornej belce przycisk refresh, zlokalizuj itp.
+     * @param item
+     * @return
+     */
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {

@@ -18,12 +18,19 @@ import java.util.Locale;
 
 public class Weather {
 
+    /**
+     * zmienna przechowująca link do openweather.org dla funkcji lokalizującej po współrzędnych urządzenia
+     */
     private static final String OPEN_WEATHER_MAP_URL =
             "http://api.openweathermap.org/data/2.5/weather?lat=%s&lon=%s&units=metric";
-
+    /**
+     * zmienna przechowująca link do openweather.org dla funkcji lokalizującej po wyszukiwanym mieście
+     */
     private static final String OPEN_WEATHER_MAP_URL_CITY =
             "http://api.openweathermap.org/data/2.5/weather?q=%s&units=metric";
-
+    /**
+     * API wykorzystywane do pobierania pogody z openweathermap.org
+     */
     private static final String OPEN_WEATHER_MAP_API = "ac1d416e05fef7cb178f8d3aa90fa2c3";
 
 
@@ -31,7 +38,6 @@ public class Weather {
 
         void processFinish(String output1, String output2, String output3, String output4, String output5, String output6, String output7, String output8);
     }
-
 
     public static class placeIdTask extends AsyncTask<String, Void, JSONObject> {
 
@@ -42,7 +48,11 @@ public class Weather {
             delegate = asyncResponse;
 
         }
-
+        /**
+         * funkcja odpowiedzialna za pobranie obiektu JSON wykorzystując getWeatherCityJSON i jest wykonywana w "tle"
+         * @param params współrzędne geograficzne
+         * @return
+         */
         @Override
         protected JSONObject doInBackground(String... params) {
 
@@ -56,7 +66,10 @@ public class Weather {
 
             return jsonWeather;
         }
-
+        /**
+         * funkcja odpowiedzialna za pobranie składnika pogody ze strony openweathermap.org np. temperatura, wilgotność
+         * @param json obiekt, który jest pobrany z funkcji getWeathterJSON
+         */
         @Override
         protected void onPostExecute(JSONObject json) {
             try {
@@ -73,7 +86,7 @@ public class Weather {
                     String description1 = details.getString("description").toUpperCase(Locale.US);
                     //String weatherDescription = details.getString("description");
                     String description = clouds.getString("all") + "%";
-                    String temperature = String.format("%.1f", main.getDouble("temp"))+ "°";
+                    String temperature = String.format("%.1f", main.getDouble("temp"))+ "&deg;";
                     String humidity = main.getString("humidity") + "%";
                     String pressure = main.getString("pressure") + " hPa";
                     String speed = wind.getString("speed") + "m/s";
@@ -102,6 +115,11 @@ public class Weather {
 
         }
 
+        /**
+         * funkcja odpowiedzialna za pobranie obiektu JSON wykorzystując getWeatherCityJSON i jest wykonywana w "tle"
+         * @param params wyszukiwane miasto
+         * @return
+         */
         @Override
         protected JSONObject doInBackground(String... params) {
 
@@ -116,6 +134,10 @@ public class Weather {
             return jsonWeather;
         }
 
+        /**
+         * funkcja odpowiedzialna za pobranie składnika pogody ze strony openweathermap.org np. temperatura, wilgotność
+         * @param json obiekt, który jest pobrany z funkcji getWeathterJSON
+         */
         @Override
         protected void onPostExecute(JSONObject json) {
             try {
@@ -132,7 +154,7 @@ public class Weather {
                     String description1 = details.getString("description").toUpperCase(Locale.US);
                     //String weatherDescription = details.getString("description");
                     String description = clouds.getString("all") + "%";
-                    String temperature = String.format("%.1f", main.getDouble("temp"))+ "°";
+                    String temperature = String.format("%.1f", main.getDouble("temp"))+ "&deg;";
                     String humidity = main.getString("humidity") + "%";
                     String pressure = main.getString("pressure") + " hPa";
                     String speed = wind.getString("speed") + "m/s";
@@ -151,6 +173,12 @@ public class Weather {
         }
     }
 
+    /**
+     * funkcja odpowiedzialna za nawiązanie połączenia ze stroną openweathermap.org, wykorzystanie API do pobrania pogody przez lokalizację oraz pobranie obiektu JSON
+     * @param lat lattitude - szerokość geograficzna
+     * @param lon longitude - długość geograficzna
+     * @return
+     */
     public static JSONObject getWeatherJSON(String lat, String lon){
         try {
             URL url = new URL(String.format(OPEN_WEATHER_MAP_URL, lat, lon));
@@ -181,6 +209,11 @@ public class Weather {
         }
     }
 
+    /**
+     * funkcja odpowiedzialna za nawiązanie połączenia ze stroną openweathermap.org i wykorzystanie API do pobrania pogody przez miasto
+     * @param city wyszukiwane miasto
+     * @return
+     */
     public static JSONObject getWeatherCityJSON(String city){
         try {
             URL url = new URL(String.format(OPEN_WEATHER_MAP_URL_CITY, city));
